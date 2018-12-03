@@ -139,5 +139,6 @@ REVOKE DELETE ON ALL TABLES IN SCHEMA public FROM pupilgroup;
 ### Creación manual de un usuario con rol profesor
 
 ~~~
+CREATE USER "profesor" PASSWORD 'profesor' IN ROLE pupilgroup;
 INSERT INTO USERS values ('profesor','Nombre Profesor','profesor@gmail.com',to_date('01/01/1971','DD/MM/YYYY'),1);
 ~~~
