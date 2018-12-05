@@ -94,7 +94,7 @@ Dentro del registro de apache, cuando reiniciamos el servicio debemos comprobar 
 
 ### Creación de las tablas necesarias
 
-Mediante este ![script](https://github.com/Velaa98/CoConut/blob/master/DATAdesign/build.sql) crearemos las tablas:
+Mediante este [script](https://github.com/Velaa98/CoConut/blob/master/DATAdesign/build.sql) crearemos las tablas:
 
 - Roles. Contiene los posibles roles existentes, en nuestro el rol 1 corresponde al profesor que tendrá acceso a todas las copias de los alumnos y el rol 2 que será el alumno y podrá almacenar las copias tanto automáticamente como manualmente.
 - Users. Donde estarán almacenados los datos de los usuarios que usen la aplicación.
